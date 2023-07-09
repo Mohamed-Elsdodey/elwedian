@@ -1,0 +1,239 @@
+:root {
+    --mainColor: #405189;
+    --mainColor10: #40518910;
+    --mainColor30: #40518930;
+    --secondColor: #06253b;
+    --secondColor10: #06253b10;
+    --secondColor30: #06253b30;
+    --gold: #ffd700;
+    --whiteColor: #ffffff;
+    --blackColor: #1f1f1f;
+    --bodyColor: #f3f3f9;
+    --textColor: #898989;
+    --transition: all 0.3s ease-in-out;
+    --shadow: 0px 2px 4px #c1c1c1;
+    --BigShadow: 0 16px 32px 0 #071c1f1a;
+    --headerBackgroundColor: var(--whiteColor);
+}
+
+@media (max-width: 768px) {
+    .container,
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+.dataTables_wrapper .table thead tr th {
+    padding: 12px;
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .table tbody tr td {
+    padding: 20px 12px;
+    white-space: nowrap;
+}
+
+.dataTables_wrapper table.dataTable > tbody > tr.child ul.dtr-details > li {
+    border-bottom: 1px solid var(--secondColor10);
+    padding: 10px 0;
+}
+
+.dataTables_wrapper .dtr-details {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.dataTables_wrapper .dtr-details .dtr-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    white-space: normal;
+}
+
+.dataTables_wrapper .dtr-details li {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dataTables_wrapper .dataTables_length {
+    padding-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_length label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    padding: 8px;
+    min-width: 100px;
+}
+
+.dataTables_wrapper table.dataTable > thead .sorting::after,
+.dataTables_wrapper table.dataTable > thead .sorting_asc::after,
+.dataTables_wrapper table.dataTable > thead .sorting_desc::after,
+.dataTables_wrapper table.dataTable > thead .sorting_asc_disabled::after,
+.dataTables_wrapper table.dataTable > thead .sorting_desc_disabled::after {
+    right: 0.5em;
+    content: "↓";
+}
+
+.dataTables_wrapper table.dataTable > thead .sorting::before,
+.dataTables_wrapper table.dataTable > thead .sorting_asc::before,
+.dataTables_wrapper table.dataTable > thead .sorting_desc::before,
+.dataTables_wrapper table.dataTable > thead .sorting_asc_disabled::before,
+.dataTables_wrapper table.dataTable > thead .sorting_desc_disabled::before {
+    right: 1em;
+    content: "↑";
+}
+
+.dataTables_wrapper table.dataTable > thead > tr > th:not(.sorting_disabled),
+.dataTables_wrapper table.dataTable > thead > tr > td:not(.sorting_disabled) {
+    padding-right: 30px;
+}
+
+.dataTables_wrapper table.dataTable > thead .sorting:before,
+.dataTables_wrapper table.dataTable > thead .sorting:after,
+.dataTables_wrapper table.dataTable > thead .sorting_asc:before,
+.dataTables_wrapper table.dataTable > thead .sorting_asc:after,
+.dataTables_wrapper table.dataTable > thead .sorting_desc:before,
+.dataTables_wrapper table.dataTable > thead .sorting_desc:after,
+.dataTables_wrapper table.dataTable > thead .sorting_asc_disabled:before,
+.dataTables_wrapper table.dataTable > thead .sorting_asc_disabled:after,
+.dataTables_wrapper table.dataTable > thead .sorting_desc_disabled:before,
+.dataTables_wrapper table.dataTable > thead .sorting_desc_disabled:after {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    display: block;
+    opacity: 0.3;
+    top: unset;
+}
+
+.dataTables_wrapper table.dataTable > thead .sorting,
+.dataTables_wrapper table.dataTable > thead .sorting_asc,
+.dataTables_wrapper table.dataTable > thead .sorting_desc,
+.dataTables_wrapper table.dataTable > thead .sorting_asc_disabled,
+.dataTables_wrapper table.dataTable > thead .sorting_desc_disabled {
+    cursor: pointer;
+    position: relative;
+}
+
+.dataTables_wrapper table.dataTable > thead .sorting_asc:before,
+.dataTables_wrapper table.dataTable > thead .sorting_desc:after {
+    opacity: 1;
+}
+
+.dataTables_wrapper .dataTables_info {
+    padding: 10px 8px;
+    display: inline-flex;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    border: 1px solid #eee;
+    display: inline-flex;
+    float: left;
+    margin-top: 6px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 8px;
+    min-width: 30px !important;
+    height: 30px;
+    transition: var(--transition);
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: var(--whiteColor);
+    background-color: var(--mainColor);
+}
+
+.dataTables_wrapper .dataTables_paginate span {
+    display: inline-flex;
+}
+
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control, .dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control {
+    position: relative;
+    padding-right: 40px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before,
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
+    top: 50%;
+    left: unset;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+    margin-top: -10px;
+    display: block;
+    position: absolute;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+    line-height: 20px;
+    content: "+";
+    background-color: var(--mainColor);
+    transition: var(--transition);
+}
+
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control:before,
+.dataTables_wrapper table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th.dtr-control:before {
+    content: "-";
+    background-color: var(--secondColor);
+}
+
+/*#page-topbar {*/
+/*    box-shadow: 0px 2px 36px #00000010;*/
+/*}*/
+.dropify-wrapper .dropify-message span.file-icon {
+    font-size: 14px !important;
+}
+
+.dropify-font-upload:before, .dropify-wrapper .dropify-message span.file-icon:before {
+    font-size: 24px !important;
+}
+
+.logo span {
+    display: block;
+}
+
+.logo img {
+    height: 50px;
+    max-width: 100px;
+    object-fit: contain;
+    object-position: right;
+}
+
+.navbar-brand-box {
+    padding: 0px 10px;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand-box {
+        display: block;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+}
+
+ #scrollbar .navbar-nav li {
+    display: flex;
+     width: auto;
+    flex-direction: column;
+}
+
+
+/*# sourceMappingURL=custom-rtl.min.css.map */

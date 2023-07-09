@@ -1,0 +1,103 @@
+<?php
+return [
+    'twitter'=>'تويتر',
+    'instagram'=>'انستقرام',
+    'youtube'=>'اليوتيوب',
+    'What are you looking for?'=>'ما الذي تبحث عنه؟',
+    'Subject'=>'الموضوع',
+    'Message'=>'الرسالة',
+    'send us an email'=>'راسلنا على البريد الإلكترونى',
+    'Use the form below or'=>'استخدم النموذج أدناه أو',
+    'Fill in your message'=>'املأ رسالتك',
+    'linkedin'=>'لينكد إن',
+    'Email'=>'البريد الإلكترونى',
+    'Fill in your email'=>'املأ بريدك الإلكتروني',
+    'facebook'=>'فيسبوك',
+    'Professionals'=>'المهنيين',
+    'Our Team'=>'فريقنا',
+    'Links'=>'الروابط',
+    'Name'=>'الإسم',
+    'Phone number'=>'رقم التليفون',
+    'Your phone number (optional)'=>'رقم هاتفك (اختياري)',
+    'Fill in your name'=>'اكتب اسمك',
+    'Your message has been sent! We will reply you as soon as possible.'=>'تم ارسال رسالتك! نحن سوف نرد عليك في اقرب وقت ممكن.',
+    'Got a project to discuss?'=>'هل لديك مشروع للمناقشة؟',
+    'Take me home'=>'الذهاب للرئيسية',
+    'The page you were looking for doesn`t exist. You may have mistyped the address or the page may have been moved.'=>'الصفحة التي تبحث عنها غير موجودة. ربما أخطأت في كتابة العنوان أو ربما تم نقل الصفحة.',
+    'Page not found'=>'الصفحة غير موجودة',
+    'Small or big, we`ve got you covered!'=>'صغيرة أو كبيرة ، لقد قمنا بتغطيتك!',
+    'Get in Touch'=>'ابقى على تواصل',
+    'Have a project of your own?'=>'هل لديك مشروع خاص بك؟',
+    'All rights reserved'=>'كل الحقوق محفوظة',
+    'Awards & Recognition'=>'الجوائز والتقديرات',
+    'recognition'=>'التقديرات',
+    'about us'=>'معلومات عنا',
+    'Contact Us' => 'تواصل معنا',
+    'scroll down' => 'لأسفل',
+    'Who we are' => 'من نحن',
+    'our Goals' => 'أهدافنا',
+    'Our Work' => 'أعمالنا',
+    'Latest Work' => 'أخر الأعمال',
+    'Send Message'=>'إرسال',
+    'Address'=>'العنوان',
+    'Socials'=>'مواقع التواصل',
+    'Overview'=>'ملخص',
+    'What we do'=>'الذي نفعله',
+    'work'=>'الأعمال',
+    'Services'=>'خدماتنا',
+    'find us'=>'جدنا',
+    'News'=>'الأخبار',
+    'Start'=>'البداية',
+    'All'=>'الكل',
+    'Launch'=>'الإنطلاق',
+    'Home'=>'الرئيسية',
+    'Website'=>'الموقع',
+    'Read More'=>'اقرأ أكثر',
+    'Recent Posts'=>'المشاركات الاخيرة',
+    'PREV'=>'السابق',
+    'NEXT'=>'التالى',
+    'Follow us'=>'الأخبار',
+    'Blogs'=>'الأخبار',
+    'view all'=>'عرض الكل',
+    'Clients'=>'عملائنا',
+    'Latest news'=>'أخر الأخبار',
+    'our journal'=>'مجلتنا',
+    'We`ve worked with lovely clients'=>'لقد عملنا مع عملاء رائعين',
+    'Our Industry'=>'صناعتنا',
+    'Oil & Gas Engineering'=>'هندسة النفط والغاز',
+    'Chemical Research'=>'البحوث الكيميائية',
+    'About Al Wadian'=>'عن الوديان',
+    'Company Information'=>'معلومات الشركة',
+    'Chain Of Factories'=>'سلسلة المصانع',
+    'About'=>'معلومات عنا',
+    'Products'=>'المنتجات',
+    'Contact'=>'تواصل معنا',
+    'Your message was sent successfully'=>'لقد تم ارسال رسالتك بنجاح',
+    'The Oil refining Leaders'=>'قادة تكرير النفط',
+    'Company With New Technologies'=>'شركة بتقنيات جديدة',
+    'Oil Extracting'=>'استخراج الزيت',
+    'visit our site office anytime'=>'قم بزيارة مكتب موقعنا في أي وقت',
+    'Send us a message in case of any inquiry or'=>'ابعث لنا رسالة في حال وجود أي استفسار أو',
+    'Get a FREE Consultation!'=>'احصل على استشارة مجانية!',
+    'We’ll reply within 48 hrs for better support'=>'سنقوم بالرد خلال 48 ساعة للحصول على دعم أفضل',
+    'Ausod tempor incididunt laboret dolore magn aliquat enim minim venia quis nos exercity ullamco laboris'=>'Ausod الصدغية المخبرية دولور ماغن أليكوات أدنى حد من فينيا لا يوجد ممارسة ullamco Laboris',
+    'Extract & Refine Oil Leaders'=>'استخراج النفط وتنقيته',
+    'Experts Of Modern'=>'خبراء حديثون',
+    'Industry with solutions for everyone beyond horizon'=>'صناعة مع حلول للجميع وراء الأفق',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+];

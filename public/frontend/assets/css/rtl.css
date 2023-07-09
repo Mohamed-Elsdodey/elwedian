@@ -1,0 +1,350 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
+ 
+/** template rtl css **/
+
+body {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 , .main-menu .navigation>li>a {
+  font-family: inherit !important;
+}
+
+.page_direction{
+    display: none;
+}
+
+.footer-left-box {
+  position: unset !important;
+    display: block !important;
+    margin-left: 60px !important;
+    margin-right: -110px !important;
+    padding-top: 55px !important;
+    padding-right: 80px !important;
+    padding-bottom: 15px !important;
+    z-index: 0 !important;
+}
+
+.footer-bottom{
+  justify-content: center !important;
+}
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.header-style3_left .logo {
+  padding-right: 35px; 
+  padding-left: unset;
+}
+
+.header-contact-info2 ul li span::before {
+  margin-left: 8px;
+  margin-right: unset;
+}
+
+
+
+.single-footer-widget .title::before {
+  right: -30px !important;
+  left: unset !important;
+}
+
+.single-footer-widget .footer-contact-info ul li .icon {
+  left: unset !important;
+  right: 0px;
+}
+.single-footer-widget .footer-contact-info ul li {
+  padding-left: unset !important;
+  padding-right: 40px;
+}
+
+.sec-title .sub-title h5 {
+  padding: 0 8px;
+}
+
+
+
+.rtl .pull-left{
+  float: right;
+}
+.rtl .pull-right{
+  float: left;
+}
+
+
+
+
+
+
+.rtl .main-menu {
+    float: right;
+}
+.rtl .main-menu .navigation>li {
+    float: right;
+}
+.rtl .main-menu .navigation> li:first-child {
+    margin-right: 0px;
+}
+.rtl .main-menu .navigation> li:last-child {
+    margin-right: 40px;
+    margin-left: 25px;
+}
+.rtl .main-menu .navigation> li> ul {
+    left: auto;
+    right: inherit;
+}
+.rtl .main-menu .navigation> li> ul> li> a {
+    text-align: right;
+}
+.rtl .main-menu .navigation> li> ul> li> a:before {
+    display: none;
+}
+.rtl .main-menu .navigation> li> ul> li> ul> li a:before {
+    display: none;
+}
+.rtl .main-menu .navigation> li> ul> li.dropdown> a:after {
+    display: none;
+}
+.rtl .main-menu .navigation> li> ul> li> ul {
+    left: auto;
+    right: 100%;
+}
+.rtl .main-menu .navigation> li> ul> li> ul> li> a {
+    text-align: right;
+}
+.rtl .sticky-header .main-menu .navigation> li {
+    float: right;
+}
+
+
+.rtl .main-menu .navigation> li> .megamenu li> a {
+	text-align: right;
+}
+.rtl .main-menu .navigation> li> .megamenu li> a:hover {
+    padding-left: 0;
+}
+.rtl .main-menu .navigation> li> .megamenu li:hover a:before{
+    width: 0;
+}
+
+
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+  transform: rotate(90deg);
+}
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(0deg);
+}
+
+
+
+.rtl .scroll-top {
+    left: 20px;
+    right: auto;
+}
+.rtl .switcher .switch_btn {
+    top: 0px;
+    right: 0px;
+}
+.rtl .switcher .switch_menu {
+    left: -240px;
+}
+.rtl .banner-carousel{
+    direction: ltr;
+    text-align: right;
+}
+
+
+
+.rtl .three-item-carousel{
+    direction: ltr; 
+    text-align: right;  
+}
+.rtl .testimonial-carousel{
+    direction: ltr;
+    text-align: right;    
+}
+.rtl .testimonial-carousel.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    float: left;
+}
+.rtl .testimonial-carousel2{
+    direction: ltr;
+    text-align: right;    
+}
+.rtl .text-right-rtl{
+    text-align: right;
+}
+.rtl .shop-review-carousel{
+    direction: ltr; 
+    text-align: right;      
+}
+
+
+/*________________Header_______________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=============================================
+    Inner Page Css
+=============================================
+***/
+
+.rtl .sidebar-wrapper {
+    float: left;
+    text-align: right;
+}
+.rtl .sidebar-search-box .search-form button {
+    left: 0;
+    right: inherit;
+}
+.rtl .sidebar-search-box .search-form input[type="text"] {
+    padding-left: 70px;
+    padding-right: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=============================================
+    RTL Page Responsive Css
+=============================================
+***/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+ 
+
+
+
+
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+        
+.rtl .sidebar-wrapper {
+    float: right;
+}
+    
+    
+
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) { 
+
+     
+.rtl .sidebar-wrapper {
+    float: right;
+}  
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+}
+
+
+
+
+
+
