@@ -27,9 +27,11 @@
 
                     @endif
 
+
                 </p>
             </div>
         </div>
+
         <div class="row">
             <div class="col-xl-12">
                 <div class="service-style3_content">
@@ -42,6 +44,8 @@
                                 <div class="img-holder">
                                     <div class="inner">
                                         <img src="{{get_file($row->image)}}" alt=""/>
+{{--                                        <img src="https://oilex.com.eg/static/media/Products2.36a11508.png" alt=""/>--}}
+
                                     </div>
                                 </div>
                                 <div class="text-holder text-center">
